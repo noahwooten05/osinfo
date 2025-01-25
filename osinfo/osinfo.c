@@ -11,7 +11,6 @@ typedef struct _OSINFO {
 }OSINFO, * POSINFO;
 
 int main(int argc, char** argv) {
-	fgetc(stdin);
 
 	char* HeaderOut = malloc(2048);
 	POSINFO OsInfoData = malloc(sizeof(OSINFO));
