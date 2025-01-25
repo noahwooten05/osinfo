@@ -105,7 +105,7 @@ int main(int argc, char** argv) {
 	free(HeaderOut);
 
 	// Output the build string
-	printf("%s Version %i.%i Build %i.%i.%s.%06i-%04i", OsInfoData->OSName,
+	printf("%s Version %i.%i Build %i.%i.%s.%06i-%04i\n", OsInfoData->OSName,
 		OsInfoData->Major, OsInfoData->Minor, OsInfoData->Build,
 		OsInfoData->Revision, Branch, Date, Time);
 
